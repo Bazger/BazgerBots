@@ -76,6 +76,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bazger.Bots.Core\Bazger.Bots.Core.csproj">
+      <Project>{8a166edb-be63-42c5-ba7b-966546786aca}</Project>
+      <Name>Bazger.Bots.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bazger.Bots.Infrastructure\Bazger.Bots.Infrastructure.csproj">
+      <Project>{1848b428-20cb-4648-8c3b-d3756aa6680d}</Project>
+      <Name>Bazger.Bots.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Selenium.WebDriver.PhantomJS.1.0.0.0\build\Selenium.WebDriver.PhantomJS.targets" Condition="Exists('..\packages\Selenium.WebDriver.PhantomJS.1.0.0.0\build\Selenium.WebDriver.PhantomJS.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

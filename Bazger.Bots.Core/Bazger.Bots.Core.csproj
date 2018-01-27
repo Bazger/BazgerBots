@@ -68,7 +68,7 @@
     <Compile Include="Utils\SerDeUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BazgerBots.Infrastructure\Bazger.Bots.Infrastructure.csproj">
+    <ProjectReference Include="..\Bazger.Bots.Infrastructure\Bazger.Bots.Infrastructure.csproj">
       <Project>{1848B428-20CB-4648-8C3B-D3756AA6680D}</Project>
       <Name>Bazger.Bots.Infrastructure</Name>
     </ProjectReference>
